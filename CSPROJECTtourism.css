@@ -1,0 +1,96 @@
+/* Reset default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #000000;
+  }
+  
+  header {
+    background-color: #00796b;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+  }
+  
+  .Links {
+    background-color:#009688;
+    text-align: center;
+   margin: 0em;
+  
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+  } 
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  main {
+    padding: 3em;
+    text-align: center;
+  }
+  
+  .highlight {
+    color: #009688;
+  }
+  
+  .TouristAttractions{
+    font-weight: bolder;
+    font-size: x-large;
+  }
+  .highlight-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5em;
+    text-align: center;
+    margin: 1em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  .Betaab{
+    font-size: larger;
+    margin: 1em;
+  }
+  .Betaab2{
+    font-size: large;
+    margin: 1em;
+  }
+  .Shalimar1{
+    font-size: larger;
+    margin: 1em;
+  }
+  .Shalimar2{
+    font-size: large;
+    margin: 1em;
+  }
+  img{
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+  .Vaishno_Devi1{
+    font-size: larger;
+    margin: 1em;
+  }
+  .Vaishno{
+    font-size: large;
+    margin: 1em;
+  }
+  

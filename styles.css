@@ -1,0 +1,138 @@
+/* Reset default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #000000;
+  }
+  
+  header {
+    background-color: #00796b;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+  }
+  
+  nav {
+    background-color:#009688;
+    text-align: center;
+   margin: 0em;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  main {
+    padding: 3em;
+    text-align: center;
+  }
+  
+  .highlight {
+    color: #009688;
+  }
+  
+  /* Highlights section */
+  .highlights {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 3em;
+  }
+  
+  .highlight-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5em;
+    text-align: center;
+    margin: 1em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  .highlight-L {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5em;
+    text-align: center;
+    margin: 1em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  .highlight-L:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    background-color:#009688;
+  }
+  .Lol{
+    rotate: 270deg;
+  }
+  
+  .highlight-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    background-color:#009688;
+  }
+  
+  .highlight-item h3 {
+    color: #000000;
+    margin: 1em 0;
+  }
+  
+  .highlight-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    
+  }
+  
+  /* Explore More section */
+  .explore-more {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 3em;
+  }
+  
+  .explore-more h2 {
+    color: #009688;
+    margin-bottom: 1em;
+  }
+  
+  .explore-more .btn {
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    background-color: #009688;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .explore-more .btn:hover {
+    background-color: #00796b;
+  }
+  .L {
+    rotate: 270deg;
+  }
+  
